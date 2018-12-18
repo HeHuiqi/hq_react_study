@@ -1,12 +1,20 @@
+
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import AppBase from './AppBase'
+// import LoginControl from "./Greeting";
+// import HqList from "./HqList";
+// import HqForm from "./HqForm";
+// import HqCalculator from "./HqCalculator";
+// import HqGroup from './HqGroup'
+import HqProductTable from "./HqProductTable";
 
-ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// const numbers = [1,2,3,4,5,6,7,8];
+ReactDOM.render(
+    <HqProductTable/>,
+    document.getElementById('root'),
+);
+
