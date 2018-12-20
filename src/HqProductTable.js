@@ -26,8 +26,6 @@ class ProductRow extends React.Component{
         );
     }
 }
-JSON.st
-
 //展示所有商品的列表
 class ProductTable extends React.Component{
     

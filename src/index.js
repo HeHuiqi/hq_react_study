@@ -9,12 +9,13 @@ import './index.css';
 // import HqForm from "./HqForm";
 // import HqCalculator from "./HqCalculator";
 // import HqGroup from './HqGroup'
-import HqProductTable from "./HqProductTable";
+// import HqProductTable from "./HqProductTable";
+import HqFileChoose from "./HqFileChoose";
 
 
 // const numbers = [1,2,3,4,5,6,7,8];
 ReactDOM.render(
-    <HqProductTable/>,
+    <HqFileChoose/>,
     document.getElementById('root'),
 );
 
