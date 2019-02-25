@@ -22,9 +22,12 @@ class HqList extends React.Component{
         //{}中可以嵌入任何表达式
         return (
             <div>
-                <ul>{ this.props.numbers.map((index,number) =>{
-                    return <ListItem key={index.toString()} value={number}/>
-                })}</ul>
+                <ul>
+                    { this.props.numbers.map((number,index) =>{
+                        var  value = index.toString()+'------->'+number;
+                        return <ListItem key={index.toString()} value={value}/>
+                    })}
+                </ul>
             </div>
         );
     }

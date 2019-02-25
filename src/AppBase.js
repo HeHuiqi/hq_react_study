@@ -33,19 +33,22 @@ class Clock extends React.Component{
         clearInterval(this.timerID);
     }
 }
-// function AppBase(){
-//     function handleClick(e) {
-//         //通过这种方式来阻止事件的发生
-//         e.preventDefault();
-//         console.log('The link was clicked.');
-//     };
-//     return (
-//         <div>
-//             <Clock/>
-//             <a href='https://www.baidu.com' onClick={handleClick}>百度</a>
-//         </div>
-//     );
-// }
+/*
+function AppBase(){
+    function handleClick(e) {
+        //通过这种方式来阻止事件的发生
+        e.preventDefault();
+        console.log('The link was clicked.');
+    };
+    return (
+        <div>
+            <Clock/>
+            <a href='https://www.baidu.com' onClick={handleClick}>百度</a>
+        </div>
+    );
+}
+*/
+
 //注意这里和上面AppBase的写法
 class AppBase extends React.Component {
 

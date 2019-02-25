@@ -8,7 +8,9 @@ class HqFileChoose extends React.Component{
         super(props);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
+
     handleSubmit(event){
+        console.log(this);
         event.preventDefault();//阻止提交
         var files = this.fileInput.files[0];
         if (files){
